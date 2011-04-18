@@ -1,0 +1,25 @@
+Global setup:
+
+ Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email dhydrated@gmail.com
+        
+
+Next steps:
+
+  mkdir hector-examples
+  cd hector-examples
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:dhydrated/hector-examples.git OR https://dhydrated@github.com/dhydrated/hector-examples.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:dhydrated/hector-examples.git OR https://dhydrated@github.com/dhydrated/hector-examples.git
+  git push -u origin master
+      
